@@ -30,7 +30,7 @@ const FilterComponent = ({ onFilter }) => {
 
     try {
       // Make a POST request to the server with the filter data
-      const response = await axios.post('https://world-population-visual-do4j.vercel.app/filter-data', filter);
+      const response = await axios.post('https://world-population-visual.vercel.app/filter-data', filter);
 
       // Handle the response (response.data will contain the filtered data)
       console.log(response.data);
